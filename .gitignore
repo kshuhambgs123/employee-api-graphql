@@ -1,0 +1,24 @@
+node_modules
+
+/generated/prisma
+
+# Ignore all JavaScript files
+*.js
+*.js.map
+
+# Optional: ignore JavaScript in subfolders too
+**/*.js
+**/*.js.map
+
+# Ignore compiled output
+dist/
+build/
+
+# Ignore TypeScript cache
+*.tsbuildinfo
+
+# Node dependencies
+node_modules/
+
+# Environment config
+.env
